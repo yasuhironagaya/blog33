@@ -1,9 +1,10 @@
 import Link from "next/link";
+import styles from "styles/nav.module.scss"
 
 export default function Nav() {
   return(
     <nav>
-      <ul>
+      <ul className={styles.list}>
         <li>
           <Link href="/">Home</Link>
         </li>
@@ -12,6 +13,9 @@ export default function Nav() {
         </li>
         <li>
           <Link href="/blog">Blog</Link>
+        </li>
+        <li>
+          <Link href="golf">Golf</Link>
         </li>
       </ul>
     </nav>

@@ -4,7 +4,7 @@ export default function Blog() {
   return (
     <>
       <Hero
-        title="ブログページ"
+        title="blog"
         subtitle="ここにいろんなページを書き込んで行くぞ！"
       />
     </>
