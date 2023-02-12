@@ -1,9 +1,16 @@
 import Logo from "components/logo";
+import styles from "styles/footer.module.scss";
+import Container from "components/container";
 
 export default function Footer() {
   return (
-    <header>
-      <Logo />
-    </header>
+    <footer className={styles.wrapper}>
+      <Container>
+        <div className={styles.flexContainer}>
+          <Logo />
+          [ソーシャル]
+        </div>
+      </Container>
+    </footer>
   );
 }
